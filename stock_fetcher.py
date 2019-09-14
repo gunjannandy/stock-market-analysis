@@ -64,7 +64,7 @@ def get_historic_price(query_url,json_path,csv_path):
 			return
 			
 def main():
-	start = time.time()
+	# start = time.time()
 	json_path = os.getcwd()+os.sep+".."+os.sep+"historic_data"+os.sep+"json"+os.sep
 	csv_path = os.getcwd()+os.sep+".."+os.sep+"historic_data"+os.sep+"csv"+os.sep
 
@@ -73,7 +73,7 @@ def main():
 	if not os.path.isdir(csv_path):
 		os.makedirs(csv_path)
 
-	ticker_file_path = "Assets"+os.sep+"india.csv"
+	ticker_file_path = "assets"+os.sep+"india.csv"
 	country_df = pd.read_csv(ticker_file_path)
 	# print("Total stocks:",len(country_df))
 	# print(country_df.head(10))
@@ -87,9 +87,13 @@ def main():
 	with Pool(processes=10) as pool:
 		 pool.starmap(get_historic_price, zip(query_urls, itertools.repeat(json_path), itertools.repeat(csv_path)))
 
-	end= time.time()
-	print("All downloads completed , time taken "+str(round(end-start,3))+" sec")
+	# end= time.time()
+	# print("All downloads completed , time taken "+str(round(end-start,3))+" sec")
+	print("All downloads completed!")
 
 
 if __name__=="__main__":
+	start= time.time()
 	main()
+	end= time.time()
+	print("Time taken "+str(round(end-start,3))+" sec")
