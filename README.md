@@ -2,6 +2,21 @@
 
 Analyses stock market historical data and sentiment to predict stock prices using deep neural network.
 
+## Learn sentiment analysis of stock data from Twitter
+
+### Easy:
+
+* **[Goel Mittal - Stock Market Prediction Using Twitter Sentiment Analysis](http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf)**
+
+### Medium:
+
+* **[IIT Bhubaneswar - Sentiment Analysis of Twitter Data for
+Predicting Stock Market Movements](https://arxiv.org/pdf/1610.09225.pdf)**
+
+### Legendary:
+
+* **[Johan Bollen - Twitter mood predicts the stock market](https://arxiv.org/pdf/1010.3003&)**
+
 ## Usage
 
 ### Below is the step by step guide:
