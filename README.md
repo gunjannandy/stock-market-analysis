@@ -2,6 +2,11 @@
 
 Analyses stock market historical data and sentiment to predict stock prices using deep neural network.
 
+#### This project is still under construction
+
+## Project report (Not Complete):
+#### [Stock Market Analysis (at google docs)](https://docs.google.com/document/d/1gcgvTQXWzORDAhtZyQVfNQ9ScLQ6Zz_JJp8X3R20l0o/edit?usp=sharing)
+
 ## Learn sentiment analysis of stock data from Twitter
 
 ### Easy:
