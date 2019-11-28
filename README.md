@@ -4,8 +4,11 @@ Analyses stock market historical data and sentiment to predict stock prices usin
 
 #### This project is still under construction
 
-## Project report (Not Complete):
+## Project report (On Going):
 #### [Stock Market Analysis (at google docs)](https://docs.google.com/document/d/1gcgvTQXWzORDAhtZyQVfNQ9ScLQ6Zz_JJp8X3R20l0o/edit?usp=sharing)
+
+## Project presentation (On Going):
+#### [Stock Market Analysis (at google slide)](https://docs.google.com/presentation/d/1_wypLNpCi7HX7Slnf5_s2J0FRkNAKiAA-OxQySfR7tQ/edit#slide=id.g7a5e2b11ad_3_1464)
 
 ## Learn sentiment analysis of stock data from Twitter
 
